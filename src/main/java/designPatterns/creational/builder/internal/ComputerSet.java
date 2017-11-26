@@ -6,7 +6,7 @@ public class ComputerSet {
 	private String graphicCard;
 	private String ram;
 	private String hdd;
-	
+
 	private ComputerSet(Builder builder) {
 		this.monitor = builder.monitor;
 		this.cpu = builder.cpu;
@@ -54,42 +54,43 @@ public class ComputerSet {
 	public void setHdd(String hdd) {
 		this.hdd = hdd;
 	}
-	
-	public static class Builder{
+
+	public static class Builder {
 		private String monitor;
 		private String cpu;
 		private String graphicCard;
 		private String ram;
 		private String hdd;
-		
+
 		public Builder monitor(String monitor) {
 			this.monitor = monitor;
 			return this;
 		}
-	
+
 		public Builder cpu(String cpu) {
 			this.cpu = cpu;
 			return this;
 		}
-		
+
 		public Builder graphicCard(String grahicCard) {
 			this.graphicCard = grahicCard;
 			return this;
 		}
-		
+
 		public Builder ram(String ram) {
 			this.ram = ram;
 			return this;
 		}
+
 		public Builder hdd(String hdd) {
 			this.hdd = hdd;
 			return this;
 		}
-		
+
 		public ComputerSet build() {
 			return new ComputerSet(this);
 		}
-		
+
 	}
 
 	public void show() {

@@ -6,7 +6,7 @@ public class Main {
 		Director director = new Director();
 		Builder builder1 = new Set1();
 		Builder builder2 = new Set2();
-		
+
 		System.out.println("Set No. 1");
 		director.setBuilder(builder1);
 		director.constructComputerSet();
