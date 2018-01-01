@@ -1,4 +1,4 @@
-package desingPatterns.creational.prototype;
+package designPatterns.creational.protorype.ver1;
 
 public class Image extends Graphic {
 	private String url;

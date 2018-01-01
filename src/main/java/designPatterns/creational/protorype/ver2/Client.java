@@ -1,4 +1,4 @@
-package desingPatterns.creational.prototype;
+package designPatterns.creational.protorype.ver2;
 
 /**
  * Prototype pattern refers to creating duplicate object while keeping
@@ -11,6 +11,16 @@ package desingPatterns.creational.prototype;
  * costly database operation. We can cache the object, returns its clone on next
  * request and update the database as and when needed thus reducing database
  * calls.
+ * 
+ * Where to use & benefits
+ * 
+ * When there are many subclasses that differ only in the kind of objects,
+ * A system needs independent of how its objects are created, composed, and represented. 
+ * Dynamic binding or loading a method. 
+ * Use one instance to finish job just by changing its state or parameters.
+ * Add and remove objects at runtime. 
+ * Specify new objects by changing its structure.
+ * Configure an application with classes dynamically.
  */
 
 public class Client {

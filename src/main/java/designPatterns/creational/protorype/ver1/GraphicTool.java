@@ -1,4 +1,4 @@
-package desingPatterns.creational.prototype;
+package designPatterns.creational.protorype.ver1;
 
 public class GraphicTool {
 	private Graphic prototype;
