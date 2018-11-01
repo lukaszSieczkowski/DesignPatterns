@@ -11,9 +11,9 @@ public class Client {
         Context context = new Context(new Add());
         System.out.println("Sum of  10 and 5 is: " + context.executeStrategy(10, 5));
         context = new Context(new Subrtact());
-        System.out.println("Sum of  10 and 5 is: " + context.executeStrategy(10, 5));
+        System.out.println("Subtraction of  10 and 5 is: " + context.executeStrategy(10, 5));
         context = new Context(new Multiply());
-        System.out.println("Sum of  10 and 5 is: " + context.executeStrategy(10, 5));
+        System.out.println("Multiplication of  10 and 5 is: " + context.executeStrategy(10, 5));
     }
 
 
