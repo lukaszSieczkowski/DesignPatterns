@@ -26,4 +26,11 @@ public class Set1 extends Builder {
 	public void buildHDD() {
 		computerSet.setHdd("Samsung");
 	}
+
+	@Override
+	public String toString() {
+		return "Set1 [computerSet=" + computerSet + "]";
+	}
+	
+	
 }

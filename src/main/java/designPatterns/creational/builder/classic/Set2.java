@@ -3,6 +3,11 @@ package designPatterns.creational.builder.classic;
 public class Set2 extends Builder {
 
 	@Override
+	public String toString() {
+		return "Set2 [computerSet=" + computerSet + "]";
+	}
+
+	@Override
 	public void buildMonitor() {
 		computerSet.setMonitor("LG");
 	}

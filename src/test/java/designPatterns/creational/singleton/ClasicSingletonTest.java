@@ -1,9 +1,9 @@
 package designPatterns.creational.singleton;
 
-import static org.junit.Assert.assertEquals;
+import static junit.framework.Assert.assertEquals;
 
 import org.junit.Before;
-import org.junit.BeforeClass;
+
 import org.junit.Test;
 
 public class ClasicSingletonTest {
