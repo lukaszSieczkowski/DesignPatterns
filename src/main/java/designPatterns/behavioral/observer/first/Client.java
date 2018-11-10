@@ -1,5 +1,9 @@
 package designPatterns.behavioral.observer.first;
 
+/**
+ * Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified,
+ * its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
+ */
 public class Client {
 
     public static void main(String[] args) {
