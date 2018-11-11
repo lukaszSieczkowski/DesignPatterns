@@ -24,7 +24,7 @@ public class Client {
         internet.inform();
 
         television.leave();
-        
+
         lotto.drav();
         System.out.println("DRAV 3\n");
 
