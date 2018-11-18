@@ -1,5 +1,10 @@
 package designPatterns.behavioral.decorator.first;
 
+/**
+ * The decorator pattern is a design pattern that allows behavior to be added to an individual object,
+ * dynamically, without affecting the behavior of other objects from the same class
+ */
+
 public class Client {
     public static void main(String[] args) {
 
